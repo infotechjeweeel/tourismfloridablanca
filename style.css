@@ -1,0 +1,530 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255);
+}
+span{
+    color: green;
+}
+.nav-socmedia a{
+    color: green;
+}
+.navbar ul li a:hover {
+    color: green;
+}
+.nav-socmedia a:hover{
+  font-size: 17px;
+}
+
+.dropdown ul{
+  background-color: rgba(255, 255, 255);
+}
+
+/* LANDING PAGE */
+
+/* Carousel */
+.carousel-item-firstpage img{
+  max-height: 100vh;
+}
+.carousel-item video{
+  max-height: 100vh;
+  object-fit: fill;
+}
+.carousel-caption h5{
+  font-size: 40px;
+}
+.carousel-caption p{
+  font-size: 17px;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-content {
+  text-align: center;
+}
+.carousel-content h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.carousel-content h2 span {
+  color: green;
+}
+
+.carousel-content p {
+  width: 55%;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+.caro-prev-icon-firstpage,
+.caro-next-icon-firstpage {
+  font-size: 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-explore {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 10px;
+  transition: .5s;
+  margin: 0 10px;
+  color: #fff;
+  border: 2px solid white;
+}
+
+
+.btn-explore:hover {
+  background: rgba(0, 128, 0, 0.5);
+  color: #fff;
+}
+
+/* carousel end */
+
+/* history */
+.about-text button{
+  border: 1px solid green;
+}
+.about-text button:hover{
+  background-color: green;
+  color: white;
+}
+/* history end */
+
+/* travel stays */
+.travel-page{
+  background-color: whitesmoke;
+}
+.travel-item {
+  transition: .5s;
+}
+
+.travel-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+
+.travel-content a{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  transition: .5s;
+  text-decoration: none;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.travel-item:hover .travel-content {
+  background: rgba(0, 0, 0, 0.5);
+}
+.travel-content a:hover{
+  opacity: 1;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+/* team */
+.card-trio{
+  width: 300px;
+}
+.team-prev,
+.team-next{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  font-size: 30px;
+}
+.team-item {
+  transition: .5s;
+}
+
+.team-social {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+
+.team-social a {
+  position: relative;
+  margin: 0 3px;
+  margin-top: 100px;
+  opacity: 0;
+  border: 2px solid green;
+  color: green;
+  height: 40px;
+  width: 40px;
+  transition: .5s;
+}
+
+.team-item:hover .team-social {
+  background: rgba(245, 245, 245, 0.5);
+}
+.team-social a:hover{
+  background-color: green;
+  color: white;
+
+}
+/* team social media hover */
+.team-item:hover .team-social a.btn:first-child {
+  opacity: 1;
+  margin-top: 0;
+  transition: .3s 0s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(2) {
+  opacity: 1;
+  margin-top: 0;
+  transition: .3s .05s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(3) {
+  opacity: 1;
+  margin-top: 0;
+  transition: .3s .1s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(4) {
+  opacity: 1;
+  margin-top: 0;
+  transition: .3s .15s;
+}
+
+
+/* team end */
+
+/* About part */
+.about-text h6{
+    color: green;
+    font-size: 25px;
+}
+
+/* Footer */
+
+.footer-follow a{
+    width: 40px;
+    margin-left: 5px;
+}
+.footer-services a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-services a:hover{
+    color: green;
+}
+.footer-usefulllink a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-usefulllink a:hover{
+    color: green;
+}
+.footer-green{
+  color: green;
+}
+.footer-follow a{
+  border: 1px solid green;
+  color: green;
+}
+.footer-follow a:hover{
+  background-color: green;
+  color: white;
+
+}
+/* Destination */
+.tourist-spot{
+    background-color: whitesmoke;
+}
+.destination-item img {
+  transition: .5s;
+}
+
+.destination-item:hover img {
+  transform: scale(1.3);
+}
+
+.destination-overlay {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: .5s;
+  z-index: 1;
+}
+
+.destination-item:hover .destination-overlay {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-width: 30px;
+}
+
+/* cafe part */
+.cafe-page{
+  background-color: whitesmoke;
+}
+.card-cafe{
+  width: 300px;
+}
+
+
+/* History Page */
+
+.page-header{
+  background-image: url("img/palakol.png");
+}
+
+/* Travel Page */
+.page-header-travel{
+  background-image: url("img/nabuclod.png");
+}
+
+.package-item {
+  transition: .5s;
+}
+
+.package-item:hover {
+  box-shadow: 0 0 30px #CCCCCC;
+}
+
+/* Banner */
+
+.history-banner{
+  background-image: url("img/banner/bannerhistory.jpg");
+}
+
+.treasures-banner{
+  background-image: url("img/banner/bannertreasures.jpg");
+}
+
+.feastique-banner{
+  background-image: url("img/banner/bannerfeastique.jpg");
+}
+
+.serenescape-banner{
+  background-image: url("img/banner/bannerserenescape.jpg");
+}
+
+.travel-banner{
+  background-image: url("img/banner/bannertravel.jpg");
+}
+
+.guide-banner{
+  background-image: url("img/banner/bannerguides.jpg");
+}
+
+.contact-banner{
+  background-image: url("img/banner/bannercontact.jpg");
+}
+
+
+
+/* HISTORY PAGE */
+
+/* FAQ start */
+
+.faq-section{
+  background-color: whitesmoke;
+}
+
+.accordion button:not(.collapsed){
+  background-color: rgba(0, 128, 0, 0.5);
+  color: black;
+}
+.accordion button:focus{
+  background-color: rgba(0, 128, 0, .5);
+  box-shadow: none;
+}
+/* FAQ end */
+
+/* Treasures PAGE */
+
+/* Palakol start /// Blog */
+.blog-page{
+  background-color: white;
+}
+.blog-first-img img{
+  height: auto;
+
+}
+.blog-container{
+  padding: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
+}
+.blog-container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-content{
+  padding: 30px;
+  margin: 10px 0 10px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Palakol end /// Blog*/
+
+/* Contact start */
+.contact-part{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.info {
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.info i {
+  font-size: 20px;
+  color: green;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eaf6ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222222;
+}
+
+.info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.info .social-links {
+  padding-left: 60px;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.social-links a:hover {
+  background: green;
+  color: #fff;
+}
+
+.email:hover i,
+.address:hover i,
+.phone:hover i {
+  background: green;
+  color: #fff;
+}
+
+.email-form {
+  width: 100%;
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.email-form .form-group {
+  padding-bottom: 8px;
+}
+
+
+.email-form input,
+.email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.email-form input:focus,
+.email-form textarea:focus {
+  border-color: green;
+  box-shadow: none;
+}
+
+.email-form input {
+  height: 44px;
+}
+
+.email-form textarea {
+  padding: 10px 12px;
+}
+
+.email-form button[type=submit] {
+  background: green;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.email-form button[type=submit]:hover {
+  background: rgba(0, 128, 0, 0.7);
+}
+/* Contact end */
